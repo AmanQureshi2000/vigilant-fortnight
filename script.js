@@ -1,9 +1,3 @@
-function gcd(a,b)
-{
-   p=Math.sqrt(a*a);
-   q=Math.sqrt(b*b);
-    return (p%q == 0)? q : gcd(q,p%q);
-}
 
 function mod_inv(a,b)
 {
