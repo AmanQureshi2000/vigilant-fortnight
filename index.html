@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Equation Solver</title>
+</head>
+<body>
+    <h1 style="text-align: center;"><strong><u>Linear Dolphantine Equation Solver</u><strong</h1>
+    <h4 class="header">This solver gives one of the integer solutions (x,y) of the equation ax+by=c, where a,b,c are integers.</h4>
+    <div class="conatainer">
+        <form name="equation" class="form" >
+           <strong> Enter the value of a:</strong> <input type="text" name="a" class="inp">
+            <br>
+          <strong><br>Enter the value of b:</strong> <input type="text" name="b" class="inp" >
+            <br>
+           <strong><br>Enter the value of c:</strong> <input type="text" name="c"  class="inp">
+            <br>
+           <strong><br>Solution:</strong> <input type="text" name="solv1" class="inp"> <input type="text" name="solv2" class="inp" >
+            <br>
+            <div class="hm">
+            <br>
+            <input type="button" value="Calculate" onclick="eq()" class="grp">
+            <input type="reset" value="Reset" id="reset" class="grp">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
